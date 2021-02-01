@@ -63,7 +63,7 @@ buck-out/
 /ios/Pods/
 
 # Test Projects
-TestBlankJavascript/
-TestBlankJavascriptExpo/
-TestBlankTypescript/
-TestBlankTypescriptExpo/
+MyBlankJavascriptApp/
+MyBlankTypescriptApp/
+MyBlankJavascriptExpoApp/
+MyBlankTypescriptExpoApp/
