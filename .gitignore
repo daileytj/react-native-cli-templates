@@ -61,3 +61,9 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Test Projects
+TestBlankJavascript/
+TestBlankJavascriptExpo/
+TestBlankTypescript/
+TestBlankTypescriptExpo/
