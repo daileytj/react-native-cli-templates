@@ -19,6 +19,13 @@ target 'ReactNativeTemplateBlankTypescript' do
   # you should disable these next few lines.
   use_flipper!
   post_install do |installer|
+    # Remove IPHONEOS_DEPLOYMENT_TARGET setting
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+      end
+    end
+  
     flipper_post_install(installer)
   end
 end
