@@ -19,6 +19,7 @@ export default function App() {
     return (
         <ThemeProvider theme={PXBThemes.blue}>
             <View style={styles.container}>
+                <Text>PX Blue</Text>
                 <Text>Open up App.js to start working on your app!</Text>
             </View>
         </ThemeProvider>
